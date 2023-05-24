@@ -1,0 +1,114 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h1{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 40px;
+}
+#square-one {
+    background-color: red;
+    width: 200px;
+    height: 150px;
+    border: 6px solid black;
+   margin: 40px;
+}
+
+
+#square-two{
+    background-color: red;
+    width: 200px;  
+    height: 150px;
+    border: 6px double black;
+    display: inline-block;
+    margin: 40px;
+    
+}
+
+#square-three{
+    background-color: red;
+    width: 200px;  
+    height: 150px;
+    border: 6px dashed black;
+    display: inline-block;
+    margin: 40px;
+}
+
+#square-four{
+    background-color: red;
+    width: 200px;  
+    height: 150px;
+    border: 6px dotted black;
+    display: inline-block;
+    margin: 40px;
+}
+
+#square-five{
+    background-color: red;
+    width: 200px;  
+    height: 150px;
+    display: inline-block;
+    margin: 40px;
+}
+
+.para-box{
+    width: 400px;
+    height: 500px;
+    color: white;
+    font-size: 20px;
+    background-color: red;
+    border-left: 24px solid green;
+    border-top: 24px solid blue;
+    border-right: 24px solid gray;
+    border-bottom: 24px solid yellow;
+    outline: 40px solid purple;
+    padding: 15px;
+    margin:80px
+
+}
